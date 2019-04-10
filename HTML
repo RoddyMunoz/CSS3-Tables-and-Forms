@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<Title>Tables and Forms in CSS3</title>
+<link href="CSS Tables and forms.css" type="text/css" rel="stylesheet" />
+</head>
+<body>
+<div id="page">
+<div id="logo">
+<img src="images/logo-css-boxes.jpg" alt="Roddy's Sushi Specialists"/>
+</div>
+<h1> Sushi Making Workshops</h1>
+<p>
+We will be conducting a number of Sushi Making Workshops at all 3 of our locations throughout the year.
+</p>
+<p> Please note that the following events are free for our  Discount Rewards Program Members: </p>
+<ul> 
+<li> Introduction to Sushi Rolls</li>
+<li> Nigiri, Maki, and Hand-Rolled Sushi Rolls</li>
+<li> Chirashi Sushi</li>
+<li> Sushi Party Platters</li>
+</ul>
+<table>
+<tr class="head">
+<th></th>
+<th>San Diego, CA</th>
+<th> Murrieta, CA</th>
+<th>Los Angeles, CA</th>
+</tr>
+<tr>
+<th>Introduction to Sushi Rolls</th>
+<td>Sat, Feb 4 2017<br />11am - 2pm</td>
+<td>Sat, Mar 4 2017<br />11am - 2pm</td>
+<td>Sat, Mar 18 2017<br />11am - 2pm</td>
+</tr>
+<tr class="even">
+<th>Nigiri, Maki, and Hand-Rolled Sushi Rolls</th>
+<td>Sat, Apr 8 2017<br />11am - 1pm</td>
+<td>Sat, May 6 2017<br />11am - 1pm</td>
+<td>Sat, May 20 2017<br />11am - 1pm</td>
+</tr>
+<tr>
+<th>Chirashi Sushi</th>
+<td>Sat, Jun 10 2017<br />11am - 2pm</td>
+<td>Sat, Jul  8 2017<br />11am - 2pm</td>
+<td>Sat, Jul  22 2017<br />11am - 2pm</td>
+</tr>
+<tr class="even">
+<th>Sushi Party Platters</th>
+<td>Sat,  Aug 5 2017<br />11am - 4pm</td>
+<td>Sat,  Sep 9 2017<br />11am - 4pm</td>
+<td>Sat,  Sep 23 2017<br />11am - 4pm</td>
+</tr>
+</table>
+<form action="http://www.example.com/form.php" method="get">
+<fieldset>
+<legend>Register Here</legend>
+<p><label class="title" for="name">Your name:</label>
+<input type="text" name="name" id="name"><br />
+<label class="title" for="email">Your email:</label>
+ <input type="text" name="email" id="email"></p>
+<p><label for="location" class="title">Your Closest Restauraunt:</label>
+<select name="location" id="location">
+ <option value="ny">San Diego, CA</option>
+<option value="il">Murrieta, CA</option>
+<option value="ca">Los Angeles, CA</option>
+</select></p>
+<span class="title">Are you a Rewards member?</span>
+<label><input type="radio" name="member" value="yes" /> Yes</label>
+<label><input type="radio" name="member" value="no" /> No</label></p>
+</fieldset>
+ <div class="submit"><input type="submit" value="Register" /></div>
+</form>
+</body>
+</html>
